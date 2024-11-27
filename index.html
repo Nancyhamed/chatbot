@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <title>Chatbot</title>
+</head>
+<body>
+
+    <div class="chatbot-container">
+        <div class="chatbot-header">
+
+            <div class="chatbot-status">
+                <p>ChatBot</p>
+
+            </div>
+        </div>
+        <div class="chatbot-messages" id="chat-box">
+            <div class="message bot">
+                <p>Hello...<br> How Can I Help You?</p>
+            </div>
+        </div>
+        <div class="chatbot-input">
+            <textarea placeholder="Type your message..." id="user-input"></textarea>
+            <button id="send-button">
+                <i class="fa-solid fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
